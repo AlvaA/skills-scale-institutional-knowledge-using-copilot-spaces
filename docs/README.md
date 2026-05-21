@@ -1,19 +1,19 @@
-# OctoAcme Project Management Docs
+# OctoAcme Project Management Documentation Index
 
-This README serves as a central hub for all OctoAcme project management process documents, providing a quick overview and direct links to each resource in the `docs/` folder.
+Welcome to the OctoAcme project management documentation. This README serves as a single entry point to all project management process docs for the OctoAcme team.
+
+---
 
 ## Project Management Process Summary
+OctoAcme employs a structured yet adaptable project management framework designed to foster effective delivery, cross-functional collaboration, and ongoing improvement. Central to this approach are clear principles—prioritizing customer value, iterative delivery, ownership by named Project and Product Managers, and a strong emphasis on psychological safety and data-informed decision-making. The typical project lifecycle follows distinct stages: initiation (defining goals, stakeholders, and success metrics), planning (breaking work into shippable increments, identifying dependencies, and aligning on responsibilities), execution and tracking (driven by disciplined daily standups and structured workflows), release management, and retrospective reviews to convert learnings into actionable improvements.
 
-OctoAcme uses an iterative, collaborative and transparent approach to project management, designed to deliver value to customers through clear roles, stakeholder alignment, and consistent execution. The process covers:
+Roles and responsibilities are sharply defined. The Project Manager coordinates schedules, risks, and communication, ensuring project documentation stays current and delivery stays on track. The Product Manager prioritizes the backlog, defines outcomes, and measures success, while Developers focus on implementing features, quality, and maintainability. QA specialists validate acceptance criteria, and Stakeholders provide input, approvals, and strategic alignment. These personas work together via frequent and intentional communication: standups for delivery, weekly PM/PdM syncs, stakeholder updates, and milestone-based reporting keep everyone aligned and provide clear escalation paths for blockers and risks.
 
-- **Project initiation and one-pager creation** — validate business need, align stakeholders, and establish initial timeline
-- **Detailed planning, risk identification, backlog and release mapping** — break work into shippable increments with clear acceptance criteria
-- **Collaborative execution, standups, tracking, review and escalation** — maintain team rhythm through daily standups, weekly syncs, and PR-based workflows
-- **Release and deployment standards** — standardize how features move to production with pre-release checklists and rollback plans
-- **Retrospective and continuous improvement practices** — capture learnings and convert them into actionable improvements
-- **Well-defined roles and communication guidelines** — ensure clear ownership and transparent stakeholder updates
+Quality assurance is integral throughout the process. Automated tests, manual QA for feature acceptance, integration and end-to-end smoke tests, and security scanning are required before release, with checklists ensuring all acceptance criteria are met pre-deployment. The release process relies on standardized deployment windows, backup plans, and post-release verification, and features automated or manual rollback pathways and incident communications in case of failures.
 
-All documents listed below form the living reference for how OctoAcme delivers high-quality outcomes as a team.
+Feedback and improvement are part of the culture. After each milestone or incident, retrospectives capture what went well, what could be improved, and commit to a handful of action items—tracked in the backlog and reviewed regularly. Success metrics are monitored against project goals, and small process improvements are celebrated and propagated across future work, ensuring that the OctoAcme approach remains both reliable and adaptable as the organization evolves.
+
+---
 
 ## Docs Index
 
@@ -25,6 +25,8 @@ All documents listed below form the living reference for how OctoAcme delivers h
 - [Release & Deployment Guide](octoacme-release-and-deployment.md) — Standardize how OctoAcme releases features to production
 - [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) — Capture learnings and convert them into actionable improvements
 - [Roles & Personas](octoacme-roles-and-personas.md) — Typical roles and responsibilities used across OctoAcme projects
+
+---
 
 ## Getting Started
 
